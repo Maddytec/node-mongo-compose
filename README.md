@@ -8,7 +8,7 @@ Ecosistema basico microservice com frontend, backend, banco mongo utilizando doc
 `$ cd node-mongo-compose`
 `$ docker-compose up -d`
 
-Requisitos para executar a API:
+Requisitos para inicializar os serviços:
 * [Docker](https://docs.docker.com/get-docker/)
 * [Docker Compose](https://docs.docker.com/compose/install/)
 
@@ -18,7 +18,7 @@ Após executar o item 2:
 
 a) Acessar a URL: [http://localhost](http://localhost) para visualizar a pagina disponibilizada referente ao frontend
 
-b) Acessar a URL: [http://localhost](http://localhost) para visualizar a pagina disponibilizada referente ao backend
+b) Acessar a URL: [http://localhost:3000](http://localhost:3000) para visualizar a pagina disponibilizada referente ao backend
 
 ## 4. Remover os serviços
 `$ docker-compose stop`
